@@ -19,7 +19,6 @@ public class Company {
     private Integer companyId;
     private String companyName;
     private String companyDescription;
-    private Integer jobId;
     public Integer getCompanyId() {
         return companyId;
     }
@@ -42,13 +41,5 @@ public class Company {
 
     public void setCompanyDescription(String companyDescription) {
         this.companyDescription = companyDescription;
-    }
-
-    public Integer getJobId() {
-        return jobId;
-    }
-
-    public void setJobId(Integer jobId) {
-        this.jobId = jobId;
     }
 }
